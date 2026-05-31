@@ -29,5 +29,5 @@ ps -ef      #display process in standard format
 
 #filter outputs with grep and awk commands
 ps -ef | grep "amazon"     #this command will pass the output throug pipe to grep which will filter process contains word amazon
-ps -ef | grep "amazon" | awk -F" " `{print $2}`  #this command will further filter only 2 coloumn of process in amazon process
-ps -ef | awk -F" " `{print 2}`  #prints 2nd coloumn from the entire process
+ps -ef | grep "amazon" | awk -F" " '{print $2}'  #this command will further filter only 2 coloumn of process in amazon process
+ps -ef | awk -F" " '{print 2}'  #prints 2nd coloumn from the entire process
