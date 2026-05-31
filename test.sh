@@ -25,7 +25,7 @@ ls
 #display some system monitoring info on linux
 nproc      #numbber of CPU
 free       #free space
-ps-ef      #display process in standard format
+ps -ef      #display process in standard format
 
 #filter outputs with grep and awk commands
 ps -ef | grep "amazon"     #this command will pass the output throug pipe to grep which will filter process contains word amazon
